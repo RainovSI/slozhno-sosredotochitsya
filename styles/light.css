@@ -24,6 +24,7 @@
   --subtitle-color: #353430;
   --main-font: "IBM Plex mono";
   --button-hover: #353430 / 0.4;
+  background-image: url(../images/cover-image-light.png);
 }
 
 .page.theme_light .decorated-zone-hidden {
@@ -32,8 +33,4 @@
 
 .page.theme_auto .decorated-zone-hidden {
   display: none;
-}
-
-.page.theme_light {
-  background-image: url(../images/cover-image-light.png);
 }

@@ -24,8 +24,5 @@
   --subtitle-color: #000028;
   --main-font: "IBM Plex mono";
   --button-hover: #ff0070 / 0.4;
-}
-
-.page.theme_dark {
   background-image: url(../images/cover-image-dark.png);
 }
