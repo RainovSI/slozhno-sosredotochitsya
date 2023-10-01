@@ -17,7 +17,7 @@
 }
 
 .header {
-  min-block-size: 97vh;
+  min-block-size: 100vh;
   max-block-size: 668px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -254,7 +254,7 @@
   .header {
     justify-items: end;
     margin-block-end: 20px;
-    min-block-size: 96vh;
+    min-block-size: 100vh;
   }
 
   .header__title {
@@ -323,13 +323,13 @@
 
   .footer {
     margin-block-start: 20px;
-    min-block-size: 96vh;
+    min-block-size: 100vh;
   }
 }
 
 @media (min-width: 1024px) {
   .header {
-    min-block-size: 95vh;
+    min-block-size: 100vh;
   }
 
   .decorated-zone-hidden {
@@ -367,7 +367,7 @@
   }
 
   .footer {
-    min-block-size: 95vh;
+    min-block-size: 100vh;
   }
 
   .footer__title {
