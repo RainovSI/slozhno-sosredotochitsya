@@ -2,23 +2,21 @@
 
 .page {
   margin: 0;
+  padding: 0;
   background-color: var(--background-color, #000028);
   background-image: url(../images/cover-image-dark.png);
   object-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding: 10px;
   font-family: var(--main-font), monoscape;
   color: var(--text-color, #f1b2ce);
   min-inline-size: 375px;
   display: grid;
-  gap: 50px;
 }
 
 .header {
   min-block-size: 100vh;
-  max-block-size: 668px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
@@ -144,6 +142,7 @@
 .main {
   display: grid;
   gap: 50px;
+  margin: 50px 0 50px 0;
 }
 
 .section {
@@ -227,7 +226,7 @@
 }
 
 .footer {
-  min-block-size: 97vh;
+  min-block-size: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -242,11 +241,6 @@
 }
 
 @media (min-width: 768px) {
-  .page {
-    padding: 20px;
-    gap: 60px;
-  }
-
   .decorated-zone-hidden {
     min-inline-size: 728px;
   }
@@ -268,6 +262,7 @@
 
   .main {
     gap: 80px;
+    margin: 60px 0 60px 0;
   }
 
   .section {
@@ -328,14 +323,9 @@
 }
 
 @media (min-width: 1024px) {
-  .header {
-    min-block-size: 100vh;
-  }
-
   .decorated-zone-hidden {
     min-inline-size: 984px;
   }
-
 
   .header__title {
     justify-self: start;
