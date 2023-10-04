@@ -7,7 +7,8 @@
   --section-title: #ff0070;
   --subtitle-color: #000028;
   --main-font: "IBM Plex mono";
-  --button-hover: #ff0070 / 0.4;
+  --button-color: #ff0070;
+  --button-outline-color: #ff007040;
   }
     
   .page.theme_dark {
@@ -23,6 +24,7 @@
   --section-title: #ff0070;
   --subtitle-color: #000028;
   --main-font: "IBM Plex mono";
-  --button-hover: #ff0070 / 0.4;
+  --button-color: #ff0070;
+  --button-outline-color: #ff007040;
   background-image: url(../images/cover-image-dark.png);
 }
