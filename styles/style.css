@@ -61,8 +61,8 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  border-inline-end: 1px solid var(--accent-color, #ff0070);
-  border-block-start: 1px solid var(--accent-color, #ff0070);
+  border-inline-end: 1px solid var(--decor-color, #ff0070);
+  border-block-start: 1px solid var(--decor-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -72,8 +72,8 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-  border-inline-start: 1px solid var(--accent-color, #ff0070);
-  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-inline-start: 1px solid var(--decor-color, #ff0070);
+  border-block-end: 1px solid var(--decor-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -194,7 +194,7 @@
 }
 
 .text-link:hover {
-  text-decoration: underline;
+  border-block-end: 1px solid var(--text-color, #f1b2ce);
 }
 
 .text-link:focus {
